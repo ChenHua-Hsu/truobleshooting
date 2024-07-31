@@ -1,0 +1,73 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.12
+    cli_version: 0.17.1
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1722244652
+    t:
+      1:
+      - 1
+      - 5
+      - 12
+      - 53
+      - 55
+      3:
+      - 23
+      4: 3.9.12
+      5: 0.17.1
+      8:
+      - 5
+      13: linux-x86_64
+SDE:
+  desc: null
+  value: VP
+batch_size:
+  desc: null
+  value: 1024
+correction_steps:
+  desc: null
+  value: 25
+dropout_gen:
+  desc: null
+  value: 0.2
+embed_dim:
+  desc: null
+  value: 96
+epochs:
+  desc: null
+  value: 200
+hidden_dim:
+  desc: null
+  value: 96
+lr:
+  desc: null
+  value: 0.003
+n_feat_dim:
+  desc: null
+  value: 4
+n_showers_2_gen:
+  desc: null
+  value: 512
+num_attn_heads:
+  desc: null
+  value: 8
+num_encoder_blocks:
+  desc: null
+  value: 16
+sampler_steps:
+  desc: null
+  value: 100
+sigma_max:
+  desc: null
+  value: 5
+sigma_min:
+  desc: null
+  value: 0.005
+train_ratio:
+  desc: null
+  value: 0.9

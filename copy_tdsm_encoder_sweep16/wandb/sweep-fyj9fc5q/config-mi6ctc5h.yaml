@@ -1,0 +1,34 @@
+wandb_version: 1
+
+SDE:
+  value: VP
+batch_size:
+  value: 1024
+correction_steps:
+  value: 25
+dropout_gen:
+  value: 0.2
+embed_dim:
+  value: 96
+epochs:
+  value: 200
+hidden_dim:
+  value: 96
+lr:
+  value: 0.003
+n_feat_dim:
+  value: 4
+n_showers_2_gen:
+  value: 512
+num_attn_heads:
+  value: 8
+num_encoder_blocks:
+  value: 16
+sampler_steps:
+  value: 100
+sigma_max:
+  value: 5
+sigma_min:
+  value: 0.005
+train_ratio:
+  value: 0.9

@@ -1,0 +1,1293 @@
+2024-07-31 13:37:33 INFO Running runs: []
+2024-07-31 13:37:34 INFO Agent received command: run
+2024-07-31 13:37:34 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 50
+	sigma_max: 1
+	sigma_min: 0.0001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:37:34 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=50 --sigma_max=1 --sigma_min=0.0001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:37:39 INFO Running runs: ['abqrlqcp']
+2024-07-31 13:37:44 INFO Cleaning up finished run: abqrlqcp
+2024-07-31 13:37:55 INFO Running runs: []
+2024-07-31 13:37:56 INFO Agent received command: run
+2024-07-31 13:37:56 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 50
+	sigma_max: 0.5
+	sigma_min: 0.0001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:37:56 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=50 --sigma_max=0.5 --sigma_min=0.0001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:38:01 INFO Running runs: ['w8z9kyp7']
+2024-07-31 13:38:06 INFO Cleaning up finished run: w8z9kyp7
+2024-07-31 13:38:18 INFO Running runs: []
+2024-07-31 13:38:18 INFO Agent received command: run
+2024-07-31 13:38:18 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 50
+	sigma_max: 1
+	sigma_min: 0.001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:38:18 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=50 --sigma_max=1 --sigma_min=0.001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:38:23 INFO Running runs: ['xsud4lv3']
+2024-07-31 13:38:28 INFO Cleaning up finished run: xsud4lv3
+2024-07-31 13:38:40 INFO Running runs: []
+2024-07-31 13:38:40 INFO Agent received command: run
+2024-07-31 13:38:40 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 50
+	sigma_max: 1
+	sigma_min: 0.001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:38:40 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=50 --sigma_max=1 --sigma_min=0.001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:38:45 INFO Running runs: ['spu4zt7o']
+2024-07-31 13:38:50 INFO Cleaning up finished run: spu4zt7o
+2024-07-31 13:39:01 INFO Running runs: []
+2024-07-31 13:39:02 INFO Agent received command: run
+2024-07-31 13:39:02 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 50
+	sigma_max: 0.5
+	sigma_min: 0.005
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:39:02 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=50 --sigma_max=0.5 --sigma_min=0.005 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:39:07 INFO Running runs: ['ckh29uu6']
+2024-07-31 13:39:12 INFO Cleaning up finished run: ckh29uu6
+2024-07-31 13:39:32 INFO Running runs: []
+2024-07-31 13:39:33 INFO Agent received command: run
+2024-07-31 13:39:33 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 50
+	sigma_max: 0.5
+	sigma_min: 0.0001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:39:33 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=50 --sigma_max=0.5 --sigma_min=0.0001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:39:38 INFO Running runs: ['bi6l322y']
+2024-07-31 13:39:43 INFO Cleaning up finished run: bi6l322y
+2024-07-31 13:39:54 INFO Running runs: []
+2024-07-31 13:39:55 INFO Agent received command: run
+2024-07-31 13:39:55 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 0.5
+	sigma_min: 0.001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:39:55 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=0.5 --sigma_min=0.001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:40:00 INFO Running runs: ['g39xstgh']
+2024-07-31 13:40:05 INFO Cleaning up finished run: g39xstgh
+2024-07-31 13:40:16 INFO Running runs: []
+2024-07-31 13:40:17 INFO Agent received command: run
+2024-07-31 13:40:17 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 0.5
+	sigma_min: 0.001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:40:17 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=0.5 --sigma_min=0.001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:40:22 INFO Running runs: ['vn3yyax2']
+2024-07-31 13:40:27 INFO Cleaning up finished run: vn3yyax2
+2024-07-31 13:40:39 INFO Running runs: []
+2024-07-31 13:40:39 INFO Agent received command: run
+2024-07-31 13:40:39 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 1
+	sigma_min: 0.001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:40:39 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=1 --sigma_min=0.001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:40:44 INFO Running runs: ['e7t24t57']
+2024-07-31 13:40:49 INFO Cleaning up finished run: e7t24t57
+2024-07-31 13:41:01 INFO Running runs: []
+2024-07-31 13:41:02 INFO Agent received command: run
+2024-07-31 13:41:02 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 50
+	sigma_max: 0.5
+	sigma_min: 0.0001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:41:02 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=50 --sigma_max=0.5 --sigma_min=0.0001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:41:07 INFO Running runs: ['s54v4n7p']
+2024-07-31 13:41:13 INFO Cleaning up finished run: s54v4n7p
+2024-07-31 13:41:32 INFO Running runs: []
+2024-07-31 13:41:33 INFO Agent received command: run
+2024-07-31 13:41:33 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 50
+	sigma_max: 1
+	sigma_min: 0.001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:41:33 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=50 --sigma_max=1 --sigma_min=0.001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:41:38 INFO Running runs: ['8nvbtugp']
+2024-07-31 13:41:43 INFO Cleaning up finished run: 8nvbtugp
+2024-07-31 13:41:55 INFO Running runs: []
+2024-07-31 13:41:55 INFO Agent received command: run
+2024-07-31 13:41:55 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 0.5
+	sigma_min: 0.0001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:41:55 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=0.5 --sigma_min=0.0001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:42:00 INFO Running runs: ['89hgws9n']
+2024-07-31 13:42:05 INFO Cleaning up finished run: 89hgws9n
+2024-07-31 13:42:17 INFO Running runs: []
+2024-07-31 13:42:17 INFO Agent received command: run
+2024-07-31 13:42:17 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 1
+	sigma_min: 0.005
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:42:17 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=1 --sigma_min=0.005 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:42:22 INFO Running runs: ['n12ekuh2']
+2024-07-31 13:42:27 INFO Cleaning up finished run: n12ekuh2
+2024-07-31 13:42:39 INFO Running runs: []
+2024-07-31 13:42:39 INFO Agent received command: run
+2024-07-31 13:42:39 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 0.5
+	sigma_min: 0.001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:42:39 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=0.5 --sigma_min=0.001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:42:44 INFO Running runs: ['iu31va63']
+2024-07-31 13:42:49 INFO Cleaning up finished run: iu31va63
+2024-07-31 13:43:02 INFO Running runs: []
+2024-07-31 13:43:04 INFO Agent received command: run
+2024-07-31 13:43:04 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 1
+	sigma_min: 0.0001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:43:04 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=1 --sigma_min=0.0001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:43:09 INFO Running runs: ['dk9o5dxq']
+2024-07-31 13:43:14 INFO Cleaning up finished run: dk9o5dxq
+2024-07-31 13:43:32 INFO Running runs: []
+2024-07-31 13:43:32 INFO Agent received command: run
+2024-07-31 13:43:32 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 50
+	sigma_max: 0.5
+	sigma_min: 0.0001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:43:33 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=50 --sigma_max=0.5 --sigma_min=0.0001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:43:38 INFO Running runs: ['a4y9l9jx']
+2024-07-31 13:43:43 INFO Cleaning up finished run: a4y9l9jx
+2024-07-31 13:43:54 INFO Running runs: []
+2024-07-31 13:43:54 INFO Agent received command: run
+2024-07-31 13:43:54 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 50
+	sigma_max: 1
+	sigma_min: 0.0001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:43:54 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=50 --sigma_max=1 --sigma_min=0.0001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:43:59 INFO Running runs: ['t601fnoo']
+2024-07-31 13:44:05 INFO Cleaning up finished run: t601fnoo
+2024-07-31 13:44:17 INFO Running runs: []
+2024-07-31 13:44:17 INFO Agent received command: run
+2024-07-31 13:44:17 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 0.5
+	sigma_min: 0.0001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:44:17 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=0.5 --sigma_min=0.0001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:44:22 INFO Running runs: ['wv5gjxnp']
+2024-07-31 13:44:27 INFO Cleaning up finished run: wv5gjxnp
+2024-07-31 13:44:39 INFO Running runs: []
+2024-07-31 13:44:39 INFO Agent received command: run
+2024-07-31 13:44:39 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 1
+	sigma_min: 0.0001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:44:39 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=1 --sigma_min=0.0001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:44:44 INFO Running runs: ['e9xsmshl']
+2024-07-31 13:44:49 INFO Cleaning up finished run: e9xsmshl
+2024-07-31 13:45:01 INFO Running runs: []
+2024-07-31 13:45:01 INFO Agent received command: run
+2024-07-31 13:45:01 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 0.5
+	sigma_min: 0.0001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:45:01 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=0.5 --sigma_min=0.0001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:45:06 INFO Running runs: ['v3aap802']
+2024-07-31 13:45:11 INFO Cleaning up finished run: v3aap802
+2024-07-31 13:45:33 INFO Running runs: []
+2024-07-31 13:45:33 INFO Agent received command: run
+2024-07-31 13:45:33 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 0.5
+	sigma_min: 0.0001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:45:34 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=0.5 --sigma_min=0.0001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:45:39 INFO Running runs: ['vtdkhpmh']
+2024-07-31 13:45:44 INFO Cleaning up finished run: vtdkhpmh
+2024-07-31 13:45:57 INFO Running runs: []
+2024-07-31 13:45:57 INFO Agent received command: run
+2024-07-31 13:45:57 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 0.5
+	sigma_min: 0.0001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:45:57 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=0.5 --sigma_min=0.0001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:46:02 INFO Running runs: ['459ft6ig']
+2024-07-31 13:46:07 INFO Cleaning up finished run: 459ft6ig
+2024-07-31 13:46:19 INFO Running runs: []
+2024-07-31 13:46:19 INFO Agent received command: run
+2024-07-31 13:46:19 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 1
+	sigma_min: 0.0001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:46:19 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=1 --sigma_min=0.0001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:46:24 INFO Running runs: ['3ikfrtag']
+2024-07-31 13:46:29 INFO Cleaning up finished run: 3ikfrtag
+2024-07-31 13:46:41 INFO Running runs: []
+2024-07-31 13:46:42 INFO Agent received command: run
+2024-07-31 13:46:42 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 1
+	sigma_min: 0.005
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:46:42 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=1 --sigma_min=0.005 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:46:47 INFO Running runs: ['gpqeusus']
+2024-07-31 13:46:52 INFO Cleaning up finished run: gpqeusus
+2024-07-31 13:47:03 INFO Running runs: []
+2024-07-31 13:47:04 INFO Agent received command: run
+2024-07-31 13:47:04 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 0.5
+	sigma_min: 0.005
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:47:04 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=0.5 --sigma_min=0.005 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:47:09 INFO Running runs: ['i69sxt5q']
+2024-07-31 13:47:14 INFO Cleaning up finished run: i69sxt5q
+2024-07-31 13:47:31 INFO Running runs: []
+2024-07-31 13:47:32 INFO Agent received command: run
+2024-07-31 13:47:32 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 0.5
+	sigma_min: 0.0001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:47:32 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=0.5 --sigma_min=0.0001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:47:37 INFO Running runs: ['zho4v51o']
+2024-07-31 13:47:42 INFO Cleaning up finished run: zho4v51o
+2024-07-31 13:47:54 INFO Running runs: []
+2024-07-31 13:47:54 INFO Agent received command: run
+2024-07-31 13:47:54 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 0.5
+	sigma_min: 0.001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:47:54 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=0.5 --sigma_min=0.001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:47:59 INFO Running runs: ['6erlhi5s']
+2024-07-31 13:48:04 INFO Cleaning up finished run: 6erlhi5s
+2024-07-31 13:48:17 INFO Running runs: []
+2024-07-31 13:48:17 INFO Agent received command: run
+2024-07-31 13:48:17 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 50
+	sigma_max: 1
+	sigma_min: 0.001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:48:17 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=50 --sigma_max=1 --sigma_min=0.001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:48:22 INFO Running runs: ['vx64qsh5']
+2024-07-31 13:48:27 INFO Cleaning up finished run: vx64qsh5
+2024-07-31 13:48:39 INFO Running runs: []
+2024-07-31 13:48:39 INFO Agent received command: run
+2024-07-31 13:48:39 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 1
+	sigma_min: 0.0001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:48:39 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=1 --sigma_min=0.0001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:48:44 INFO Running runs: ['q52uve7b']
+2024-07-31 13:48:49 INFO Cleaning up finished run: q52uve7b
+2024-07-31 13:49:01 INFO Running runs: []
+2024-07-31 13:49:01 INFO Agent received command: run
+2024-07-31 13:49:01 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 0.5
+	sigma_min: 0.001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:49:01 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=0.5 --sigma_min=0.001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:49:06 INFO Running runs: ['olntow3y']
+2024-07-31 13:49:11 INFO Cleaning up finished run: olntow3y
+2024-07-31 13:49:33 INFO Running runs: []
+2024-07-31 13:49:33 INFO Agent received command: run
+2024-07-31 13:49:33 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 1
+	sigma_min: 0.001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:49:33 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=1 --sigma_min=0.001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:49:38 INFO Running runs: ['yec5iqlc']
+2024-07-31 13:49:43 INFO Cleaning up finished run: yec5iqlc
+2024-07-31 13:49:55 INFO Running runs: []
+2024-07-31 13:49:55 INFO Agent received command: run
+2024-07-31 13:49:55 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 50
+	sigma_max: 1
+	sigma_min: 0.0001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:49:55 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=50 --sigma_max=1 --sigma_min=0.0001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:50:00 INFO Running runs: ['asy1wia1']
+2024-07-31 13:50:06 INFO Cleaning up finished run: asy1wia1
+2024-07-31 13:50:17 INFO Running runs: []
+2024-07-31 13:50:17 INFO Agent received command: run
+2024-07-31 13:50:17 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 0.5
+	sigma_min: 0.001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:50:18 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=0.5 --sigma_min=0.001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:50:23 INFO Running runs: ['8giqkyg9']
+2024-07-31 13:50:28 INFO Cleaning up finished run: 8giqkyg9
+2024-07-31 13:50:40 INFO Running runs: []
+2024-07-31 13:50:40 INFO Agent received command: run
+2024-07-31 13:50:40 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 50
+	sigma_max: 1
+	sigma_min: 0.005
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:50:40 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=50 --sigma_max=1 --sigma_min=0.005 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:50:45 INFO Running runs: ['8sxjsf5q']
+2024-07-31 13:50:50 INFO Cleaning up finished run: 8sxjsf5q
+2024-07-31 13:51:02 INFO Running runs: []
+2024-07-31 13:51:03 INFO Agent received command: run
+2024-07-31 13:51:03 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 1
+	sigma_min: 0.001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:51:03 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=1 --sigma_min=0.001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:51:08 INFO Running runs: ['hf6fo6pq']
+2024-07-31 13:51:13 INFO Cleaning up finished run: hf6fo6pq
+2024-07-31 13:51:38 INFO Running runs: []
+2024-07-31 13:51:39 INFO Agent received command: run
+2024-07-31 13:51:39 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 0.5
+	sigma_min: 0.005
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:51:39 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=0.5 --sigma_min=0.005 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:51:44 INFO Running runs: ['43nw8ebk']
+2024-07-31 13:51:49 INFO Cleaning up finished run: 43nw8ebk
+2024-07-31 13:52:01 INFO Running runs: []
+2024-07-31 13:52:02 INFO Agent received command: run
+2024-07-31 13:52:02 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 1
+	sigma_min: 0.001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:52:02 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=1 --sigma_min=0.001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:52:07 INFO Running runs: ['0kmw39at']
+2024-07-31 13:52:12 INFO Cleaning up finished run: 0kmw39at
+2024-07-31 13:52:24 INFO Running runs: []
+2024-07-31 13:52:24 INFO Agent received command: run
+2024-07-31 13:52:24 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 50
+	sigma_max: 1
+	sigma_min: 0.005
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:52:24 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=50 --sigma_max=1 --sigma_min=0.005 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:52:29 INFO Running runs: ['ldmws5tr']
+2024-07-31 13:52:34 INFO Cleaning up finished run: ldmws5tr
+2024-07-31 13:52:46 INFO Running runs: []
+2024-07-31 13:52:46 INFO Agent received command: run
+2024-07-31 13:52:46 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 50
+	sigma_max: 1
+	sigma_min: 0.005
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:52:46 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=50 --sigma_max=1 --sigma_min=0.005 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:52:51 INFO Running runs: ['713ttea4']
+2024-07-31 13:52:56 INFO Cleaning up finished run: 713ttea4
+2024-07-31 13:53:09 INFO Running runs: []
+2024-07-31 13:53:09 INFO Agent received command: run
+2024-07-31 13:53:09 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 50
+	sigma_max: 0.5
+	sigma_min: 0.001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:53:09 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=50 --sigma_max=0.5 --sigma_min=0.001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:53:14 INFO Running runs: ['2d6hvzao']
+2024-07-31 13:53:19 INFO Cleaning up finished run: 2d6hvzao
+2024-07-31 13:53:39 INFO Running runs: []
+2024-07-31 13:53:39 INFO Agent received command: run
+2024-07-31 13:53:39 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 50
+	sigma_max: 1
+	sigma_min: 0.005
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:53:39 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=50 --sigma_max=1 --sigma_min=0.005 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:53:44 INFO Running runs: ['gkcimrlp']
+2024-07-31 13:53:54 INFO Cleaning up finished run: gkcimrlp
+2024-07-31 13:54:09 INFO Running runs: []
+2024-07-31 13:54:09 INFO Agent received command: run
+2024-07-31 13:54:09 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 50
+	sigma_max: 1
+	sigma_min: 0.0001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:54:09 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=50 --sigma_max=1 --sigma_min=0.0001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:54:14 INFO Running runs: ['nwg6zr42']
+2024-07-31 13:54:25 INFO Cleaning up finished run: nwg6zr42
+2024-07-31 13:54:38 INFO Running runs: []
+2024-07-31 13:54:39 INFO Agent received command: run
+2024-07-31 13:54:39 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 50
+	sigma_max: 0.5
+	sigma_min: 0.0001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:54:39 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=50 --sigma_max=0.5 --sigma_min=0.0001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:54:44 INFO Running runs: ['rdwoo87t']
+2024-07-31 13:54:54 INFO Cleaning up finished run: rdwoo87t
+2024-07-31 13:55:00 INFO Running runs: []
+2024-07-31 13:55:00 INFO Agent received command: run
+2024-07-31 13:55:00 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 1
+	sigma_min: 0.0001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:55:00 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=1 --sigma_min=0.0001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:55:09 INFO Running runs: []
+2024-07-312024-07-31 13:55:10 INFO Cleaning up finished run: kbomtz5o
+09 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 0.5
+	sigma_min: 0.001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:55:09 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=0.5 --sigma_min=0.001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:55:21 INFO Running runs: []
+2024-07-312024-07-31 13:55:24 INFO Cleaning up finished run: j39mm8ld
+22 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 1
+	sigma_min: 0.001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:55:22 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=1 --sigma_min=0.001 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:55:38 INFO Running runs: []
+2024-07-31 13:55:38 INFO Agent received command: run
+2024-07-31 13:55:2024-07-31 13:55:44 INFO Running runs: []
+2024-07-31 13:55:44 INFO Agent received command: run
+2024-07-31 13:55:44 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 50
+	sigma_max: 1
+	sigma_min: 0.0001
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:55:44 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=50 --sigma_max=1 --sigma_min=0.0001 --switches=1111 --train_ratio2024-07-31 13:55:53 INFO Cleaning up finished run: vae71jux
+6
+2024-07-31 13:55:49 INFO Running runs: ['5whiytxk']
+2024-07-31 13:55:54 INFO Cleaning up finished run: 5whiytxk
+2024-07-31 13:56:05 INFO Running runs: []
+2024-07-31 13:56:06 INFO Agent received command: run
+2024-07-31 13:56:06 INFO Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 0.5
+	sigma_min: 0.005
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:56:06 INFO About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=0.5 --sigma_min=0.005 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:56:11 INFO Running runs: ['w1srh4kx']
+2024-07-31 13:56:16 INFO Cleaning up finished run: w1srh4kx

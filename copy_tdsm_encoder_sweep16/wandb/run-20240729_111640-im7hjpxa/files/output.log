@@ -1,0 +1,24 @@
+# showers to plot: 512
+plot_distribution running on input type 'files'
+# files: 1
+# showers per file: [512]
+File: /eos/user/c/chenhua/copy_tdsm_encoder_sweep16/datasets/dataset_2_padded_rtheta_new_transformation_nentry1033To1161.pt
+# batches: 5411
+Plot # entries
+Plot hit energies
+Plot hit x
+Plot hit y
+Plot hit z
+Plot incident energies
+Plot total deposited hit energy per shower
+Plot av. X position per shower
+Plot av. Y position per shower
+training config: {'SDE': 'VP', 'batch_size': 1024, 'correction_steps': 25, 'dropout_gen': 0.2, 'embed_dim': 96, 'epochs': 200, 'hidden_dim': 96, 'lr': 0.003, 'n_feat_dim': 4, 'n_showers_2_gen': 512, 'num_attn_heads': 8, 'num_encoder_blocks': 16, 'sampler_steps': 100, 'sigma_max': 5, 'sigma_min': 0.005, 'train_ratio': 0.9}
+Training directory:  /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/./training_result/training_20240729_1117_output/
+Making new dir . . . . .
+Traceback (most recent call last):
+  File "/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py", line 713, in main
+    trained_model_name = train_model(files_list_, device=device)
+  File "/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py", line 100, in train_model
+    loss_fn = score_model.ScoreMatchingLoss_addcorrealtion()
+AttributeError: module 'score_model' has no attribute 'ScoreMatchingLoss_addcorrealtion'

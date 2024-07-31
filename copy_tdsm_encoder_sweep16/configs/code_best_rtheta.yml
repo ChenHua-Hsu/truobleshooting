@@ -1,0 +1,37 @@
+method: random
+metric:
+  name: FID
+  goal: minimize
+parameters:
+  train_ratio: 
+    value: 0.9
+  batch_size:
+    value: 64
+  lr:
+    value: 0.003
+  epochs:
+    value: 200
+  n_feat_dim: 
+    value: 4
+  embed_dim: 
+    value: 96
+  hidden_dim: 
+    value: 96
+  num_encoder_blocks: 
+    value: 16
+  num_attn_heads: 
+    value : 8
+  dropout_gen:
+    value: 0.2
+  SDE:
+    value : "VE"
+  sigma_max: 
+    value: 5.0
+  sigma_min: 
+    value: 0.0001
+  sampler_steps:
+    value: 1000
+  n_showers_2_gen: 
+    value: 5000
+  correction_steps:
+    value : 25

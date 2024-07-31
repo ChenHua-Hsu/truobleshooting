@@ -1,0 +1,19 @@
+2024-07-29 11:17:32,869 INFO    StreamThr :70653 [internal.py:wandb_internal():85] W&B internal server running at pid: 70653, started at: 2024-07-29 11:17:32.866185
+2024-07-29 11:17:32,871 DEBUG   HandlerThread:70653 [handler.py:handle_request():158] handle_request: status
+2024-07-29 11:17:32,904 INFO    WriterThread:70653 [datastore.py:open_for_write():87] open: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/wandb/run-20240729_111732-j7867gja/run-j7867gja.wandb
+2024-07-29 11:17:32,910 DEBUG   SenderThread:70653 [sender.py:send():379] send: header
+2024-07-29 11:17:32,916 DEBUG   SenderThread:70653 [sender.py:send():379] send: run
+2024-07-29 11:17:33,337 DEBUG   HandlerThread:70653 [handler.py:handle_request():158] handle_request: shutdown
+2024-07-29 11:17:33,339 INFO    HandlerThread:70653 [handler.py:finish():882] shutting down handler
+2024-07-29 11:17:33,344 INFO    SenderThread:70653 [dir_watcher.py:__init__():211] watching files in: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/wandb/run-20240729_111732-j7867gja/files
+2024-07-29 11:17:33,344 INFO    SenderThread:70653 [sender.py:_start_run_threads():1188] run started: j7867gja with start time 1722244652.864045
+2024-07-29 11:17:33,344 INFO    SenderThread:70653 [sender.py:finish():1608] shutting down sender
+2024-07-29 11:17:33,345 INFO    SenderThread:70653 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-07-29 11:17:33,917 INFO    WriterThread:70653 [datastore.py:close():296] close: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/wandb/run-20240729_111732-j7867gja/run-j7867gja.wandb
+2024-07-29 11:17:34,347 INFO    SenderThread:70653 [dir_watcher.py:finish():388] scan: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/wandb/run-20240729_111732-j7867gja/files
+2024-07-29 11:17:34,348 INFO    SenderThread:70653 [dir_watcher.py:finish():402] scan save: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/wandb/run-20240729_111732-j7867gja/files/config.yaml config.yaml
+2024-07-29 11:17:34,348 INFO    SenderThread:70653 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-29 11:17:34,348 INFO    SenderThread:70653 [file_pusher.py:join():175] waiting for file pusher
+2024-07-29 11:17:34,932 INFO    wandb-upload_0:70653 [upload_job.py:push():130] Uploaded file /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/wandb/run-20240729_111732-j7867gja/files/config.yaml
+2024-07-29 11:17:35,353 INFO    SenderThread:70653 [file_stream.py:finish():601] file stream finish called
+2024-07-29 11:17:35,774 INFO    SenderThread:70653 [file_stream.py:finish():605] file stream finish is done

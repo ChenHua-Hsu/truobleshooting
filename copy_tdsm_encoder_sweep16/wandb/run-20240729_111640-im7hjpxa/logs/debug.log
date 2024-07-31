@@ -1,0 +1,36 @@
+2024-07-29 11:16:40,126 INFO    Thread-3  :70225 [wandb_setup.py:_flush():76] Current SDK version is 0.17.1
+2024-07-29 11:16:40,126 INFO    Thread-3  :70225 [wandb_setup.py:_flush():76] Configure stats pid to 70225
+2024-07-29 11:16:40,126 INFO    Thread-3  :70225 [wandb_setup.py:_flush():76] Loading settings from /afs/cern.ch/user/c/chenhua/.config/wandb/settings
+2024-07-29 11:16:40,126 INFO    Thread-3  :70225 [wandb_setup.py:_flush():76] Loading settings from /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/wandb/settings
+2024-07-29 11:16:40,126 INFO    Thread-3  :70225 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'notebook_name': 'NCSM_condor', 'project': 'NCSM-tdsm_encoder_sweep16_configs_code_best_test', 'entity': 'calo_tNCSM', 'root_dir': '/eos/home-c/chenhua/copy_tdsm_encoder_sweep16', 'sweep_id': 'irbzvdj6', 'run_id': 'im7hjpxa', 'sweep_param_path': '/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/wandb/sweep-irbzvdj6/config-im7hjpxa.yaml'}
+2024-07-29 11:16:40,126 INFO    Thread-3  :70225 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-07-29 11:16:40,126 INFO    Thread-3  :70225 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'trans_tdsm_rtheta.py', 'program_abspath': '/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py', 'program': '/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py'}
+2024-07-29 11:16:40,127 INFO    Thread-3  :70225 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-29 11:16:40,127 INFO    Thread-3  :70225 [wandb_init.py:_log_setup():520] Logging user logs to /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/wandb/run-20240729_111640-im7hjpxa/logs/debug.log
+2024-07-29 11:16:40,127 INFO    Thread-3  :70225 [wandb_init.py:_log_setup():521] Logging internal logs to /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/wandb/run-20240729_111640-im7hjpxa/logs/debug-internal.log
+2024-07-29 11:16:40,127 INFO    Thread-3  :70225 [wandb_init.py:init():560] calling init triggers
+2024-07-29 11:16:40,128 INFO    Thread-3  :70225 [wandb_init.py:init():567] wandb.init called with sweep_config: {'SDE': 'VP', 'batch_size': 1024, 'correction_steps': 25, 'dropout_gen': 0.2, 'embed_dim': 96, 'epochs': 200, 'hidden_dim': 96, 'lr': 0.003, 'n_feat_dim': 4, 'n_showers_2_gen': 512, 'num_attn_heads': 8, 'num_encoder_blocks': 16, 'sampler_steps': 100, 'sigma_max': 5, 'sigma_min': 0.005, 'train_ratio': 0.9}
+config: {}
+2024-07-29 11:16:40,128 INFO    Thread-3  :70225 [wandb_init.py:init():610] starting backend
+2024-07-29 11:16:40,128 INFO    Thread-3  :70225 [wandb_init.py:init():614] setting up manager
+2024-07-29 11:16:40,149 INFO    Thread-3  :70225 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-07-29 11:16:40,300 INFO    Thread-3  :70225 [wandb_init.py:init():622] backend started and connected
+2024-07-29 11:16:40,338 INFO    Thread-3  :70225 [wandb_run.py:_config_callback():1382] config_cb None None {'SDE': 'VP', 'batch_size': 1024, 'correction_steps': 25, 'dropout_gen': 0.2, 'embed_dim': 96, 'epochs': 200, 'hidden_dim': 96, 'lr': 0.003, 'n_feat_dim': 4, 'n_showers_2_gen': 512, 'num_attn_heads': 8, 'num_encoder_blocks': 16, 'sampler_steps': 100, 'sigma_max': 5, 'sigma_min': 0.005, 'train_ratio': 0.9}
+2024-07-29 11:16:40,342 INFO    Thread-3  :70225 [wandb_init.py:init():711] updated telemetry
+2024-07-29 11:16:40,344 INFO    Thread-3  :70225 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-07-29 11:16:41,017 INFO    Thread-3  :70225 [wandb_run.py:_on_init():2402] communicating current version
+2024-07-29 11:16:41,173 INFO    Thread-3  :70225 [wandb_run.py:_on_init():2411] got version response upgrade_message: "wandb version 0.17.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-07-29 11:16:41,174 INFO    Thread-3  :70225 [wandb_init.py:init():795] starting run threads in backend
+2024-07-29 11:16:54,505 INFO    Thread-3  :70225 [wandb_run.py:_console_start():2380] atexit reg
+2024-07-29 11:16:54,505 INFO    Thread-3  :70225 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2024-07-29 11:16:54,506 INFO    Thread-3  :70225 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2024-07-29 11:16:54,506 INFO    Thread-3  :70225 [wandb_run.py:_redirect():2325] Redirects installed.
+2024-07-29 11:16:54,613 INFO    Thread-3  :70225 [wandb_init.py:init():838] run started, returning control to user process
+2024-07-29 11:17:24,064 INFO    Thread-3  :70225 [wandb_run.py:_finish():2109] finishing run calo_tNCSM/NCSM-tdsm_encoder_sweep16_configs_code_best_test/im7hjpxa
+2024-07-29 11:17:24,064 INFO    Thread-3  :70225 [wandb_run.py:_atexit_cleanup():2349] got exitcode: 1
+2024-07-29 11:17:24,065 INFO    Thread-3  :70225 [wandb_run.py:_restore():2332] restore
+2024-07-29 11:17:24,065 INFO    Thread-3  :70225 [wandb_run.py:_restore():2338] restore done
+2024-07-29 11:17:28,500 INFO    Thread-3  :70225 [wandb_run.py:_footer_history_summary_info():4008] rendering history
+2024-07-29 11:17:28,501 INFO    Thread-3  :70225 [wandb_run.py:_footer_history_summary_info():4040] rendering summary
+2024-07-29 11:17:28,527 INFO    Thread-3  :70225 [wandb_run.py:_footer_sync_info():3967] logging synced files

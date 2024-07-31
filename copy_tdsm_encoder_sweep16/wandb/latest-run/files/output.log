@@ -1,0 +1,381 @@
+# showers to plot: 2000
+plot_distribution running on input type 'files'
+# files: 1
+# showers per file: [2000]
+File: /eos/user/c/chenhua/copy_tdsm_encoder_sweep16/datasets/dataset_2_padded_rtheta_new_transformation_nentry1033To1161.pt
+# batches: 5411
+Plot # entries
+Plot hit energies
+Plot hit x
+Plot hit y
+Plot hit z
+Plot incident energies
+Plot total deposited hit energy per shower
+Plot av. X position per shower
+Plot av. Y position per shower
+training config: {'SDE': 'VP', 'batch_size': 1024, 'correction_steps': 25, 'dropout_gen': 0.2, 'embed_dim': 96, 'epochs': 200, 'hidden_dim': 96, 'loss_parameters': 10, 'lr': 0.003, 'n_feat_dim': 4, 'n_showers_2_gen': 2000, 'num_attn_heads': 8, 'num_encoder_blocks': 16, 'sampler_steps': 100, 'sigma_max': 10, 'sigma_min': 0.0001, 'train_ratio': 0.9}
+Training directory:  /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/./training_result/training_20240729_1128_output/
+Making new dir . . . . .
++---------------------------------+-------------------+
+|           Module name           | Parameters listed |
++---------------------------------+-------------------+
+|            cls_token            |         96        |
+|           embed.weight          |        384        |
+|            embed.bias           |         96        |
+|         embed_e.1.weight        |        9216       |
+|          embed_e.1.bias         |         96        |
+|         embed_t.1.weight        |        9216       |
+|          embed_t.1.bias         |         96        |
+|       dense_t.dense.weight      |         96        |
+|        dense_t.dense.bias       |         1         |
+|       dense_e.dense.weight      |         96        |
+|        dense_e.dense.bias       |         1         |
+|  encoder.0.attn.in_proj_weight  |       27648       |
+|   encoder.0.attn.in_proj_bias   |        288        |
+|  encoder.0.attn.out_proj.weight |        9216       |
+|   encoder.0.attn.out_proj.bias  |         96        |
+|   encoder.0.ffnn_cls.0.weight   |        9216       |
+|    encoder.0.ffnn_cls.0.bias    |         96        |
+|   encoder.0.ffnn_cls.3.weight   |        9216       |
+|    encoder.0.ffnn_cls.3.bias    |         96        |
+|     encoder.0.ffnn.0.weight     |        9216       |
+|      encoder.0.ffnn.0.bias      |         96        |
+|     encoder.0.ffnn.3.weight     |        9216       |
+|      encoder.0.ffnn.3.bias      |         96        |
+|      encoder.0.norm1.weight     |         96        |
+|       encoder.0.norm1.bias      |         96        |
+|      encoder.0.norm2.weight     |         96        |
+|       encoder.0.norm2.bias      |         96        |
+|      encoder.0.norm3.weight     |         96        |
+|       encoder.0.norm3.bias      |         96        |
+|      encoder.0.norm4.weight     |         96        |
+|       encoder.0.norm4.bias      |         96        |
+|  encoder.1.attn.in_proj_weight  |       27648       |
+|   encoder.1.attn.in_proj_bias   |        288        |
+|  encoder.1.attn.out_proj.weight |        9216       |
+|   encoder.1.attn.out_proj.bias  |         96        |
+|   encoder.1.ffnn_cls.0.weight   |        9216       |
+|    encoder.1.ffnn_cls.0.bias    |         96        |
+|   encoder.1.ffnn_cls.3.weight   |        9216       |
+|    encoder.1.ffnn_cls.3.bias    |         96        |
+|     encoder.1.ffnn.0.weight     |        9216       |
+|      encoder.1.ffnn.0.bias      |         96        |
+|     encoder.1.ffnn.3.weight     |        9216       |
+|      encoder.1.ffnn.3.bias      |         96        |
+|      encoder.1.norm1.weight     |         96        |
+|       encoder.1.norm1.bias      |         96        |
+|      encoder.1.norm2.weight     |         96        |
+|       encoder.1.norm2.bias      |         96        |
+|      encoder.1.norm3.weight     |         96        |
+|       encoder.1.norm3.bias      |         96        |
+|      encoder.1.norm4.weight     |         96        |
+|       encoder.1.norm4.bias      |         96        |
+|  encoder.2.attn.in_proj_weight  |       27648       |
+|   encoder.2.attn.in_proj_bias   |        288        |
+|  encoder.2.attn.out_proj.weight |        9216       |
+|   encoder.2.attn.out_proj.bias  |         96        |
+|   encoder.2.ffnn_cls.0.weight   |        9216       |
+|    encoder.2.ffnn_cls.0.bias    |         96        |
+|   encoder.2.ffnn_cls.3.weight   |        9216       |
+|    encoder.2.ffnn_cls.3.bias    |         96        |
+|     encoder.2.ffnn.0.weight     |        9216       |
+|      encoder.2.ffnn.0.bias      |         96        |
+|     encoder.2.ffnn.3.weight     |        9216       |
+|      encoder.2.ffnn.3.bias      |         96        |
+|      encoder.2.norm1.weight     |         96        |
+|       encoder.2.norm1.bias      |         96        |
+|      encoder.2.norm2.weight     |         96        |
+|       encoder.2.norm2.bias      |         96        |
+|      encoder.2.norm3.weight     |         96        |
+|       encoder.2.norm3.bias      |         96        |
+|      encoder.2.norm4.weight     |         96        |
+|       encoder.2.norm4.bias      |         96        |
+|  encoder.3.attn.in_proj_weight  |       27648       |
+|   encoder.3.attn.in_proj_bias   |        288        |
+|  encoder.3.attn.out_proj.weight |        9216       |
+|   encoder.3.attn.out_proj.bias  |         96        |
+|   encoder.3.ffnn_cls.0.weight   |        9216       |
+|    encoder.3.ffnn_cls.0.bias    |         96        |
+|   encoder.3.ffnn_cls.3.weight   |        9216       |
+|    encoder.3.ffnn_cls.3.bias    |         96        |
+|     encoder.3.ffnn.0.weight     |        9216       |
+|      encoder.3.ffnn.0.bias      |         96        |
+|     encoder.3.ffnn.3.weight     |        9216       |
+|      encoder.3.ffnn.3.bias      |         96        |
+|      encoder.3.norm1.weight     |         96        |
+|       encoder.3.norm1.bias      |         96        |
+|      encoder.3.norm2.weight     |         96        |
+|       encoder.3.norm2.bias      |         96        |
+|      encoder.3.norm3.weight     |         96        |
+|       encoder.3.norm3.bias      |         96        |
+|      encoder.3.norm4.weight     |         96        |
+|       encoder.3.norm4.bias      |         96        |
+|  encoder.4.attn.in_proj_weight  |       27648       |
+|   encoder.4.attn.in_proj_bias   |        288        |
+|  encoder.4.attn.out_proj.weight |        9216       |
+|   encoder.4.attn.out_proj.bias  |         96        |
+|   encoder.4.ffnn_cls.0.weight   |        9216       |
+|    encoder.4.ffnn_cls.0.bias    |         96        |
+|   encoder.4.ffnn_cls.3.weight   |        9216       |
+|    encoder.4.ffnn_cls.3.bias    |         96        |
+|     encoder.4.ffnn.0.weight     |        9216       |
+|      encoder.4.ffnn.0.bias      |         96        |
+|     encoder.4.ffnn.3.weight     |        9216       |
+|      encoder.4.ffnn.3.bias      |         96        |
+|      encoder.4.norm1.weight     |         96        |
+|       encoder.4.norm1.bias      |         96        |
+|      encoder.4.norm2.weight     |         96        |
+|       encoder.4.norm2.bias      |         96        |
+|      encoder.4.norm3.weight     |         96        |
+|       encoder.4.norm3.bias      |         96        |
+|      encoder.4.norm4.weight     |         96        |
+|       encoder.4.norm4.bias      |         96        |
+|  encoder.5.attn.in_proj_weight  |       27648       |
+|   encoder.5.attn.in_proj_bias   |        288        |
+|  encoder.5.attn.out_proj.weight |        9216       |
+|   encoder.5.attn.out_proj.bias  |         96        |
+|   encoder.5.ffnn_cls.0.weight   |        9216       |
+|    encoder.5.ffnn_cls.0.bias    |         96        |
+|   encoder.5.ffnn_cls.3.weight   |        9216       |
+|    encoder.5.ffnn_cls.3.bias    |         96        |
+|     encoder.5.ffnn.0.weight     |        9216       |
+|      encoder.5.ffnn.0.bias      |         96        |
+|     encoder.5.ffnn.3.weight     |        9216       |
+|      encoder.5.ffnn.3.bias      |         96        |
+|      encoder.5.norm1.weight     |         96        |
+|       encoder.5.norm1.bias      |         96        |
+|      encoder.5.norm2.weight     |         96        |
+|       encoder.5.norm2.bias      |         96        |
+|      encoder.5.norm3.weight     |         96        |
+|       encoder.5.norm3.bias      |         96        |
+|      encoder.5.norm4.weight     |         96        |
+|       encoder.5.norm4.bias      |         96        |
+|  encoder.6.attn.in_proj_weight  |       27648       |
+|   encoder.6.attn.in_proj_bias   |        288        |
+|  encoder.6.attn.out_proj.weight |        9216       |
+|   encoder.6.attn.out_proj.bias  |         96        |
+|   encoder.6.ffnn_cls.0.weight   |        9216       |
+|    encoder.6.ffnn_cls.0.bias    |         96        |
+|   encoder.6.ffnn_cls.3.weight   |        9216       |
+|    encoder.6.ffnn_cls.3.bias    |         96        |
+|     encoder.6.ffnn.0.weight     |        9216       |
+|      encoder.6.ffnn.0.bias      |         96        |
+|     encoder.6.ffnn.3.weight     |        9216       |
+|      encoder.6.ffnn.3.bias      |         96        |
+|      encoder.6.norm1.weight     |         96        |
+|       encoder.6.norm1.bias      |         96        |
+|      encoder.6.norm2.weight     |         96        |
+|       encoder.6.norm2.bias      |         96        |
+|      encoder.6.norm3.weight     |         96        |
+|       encoder.6.norm3.bias      |         96        |
+|      encoder.6.norm4.weight     |         96        |
+|       encoder.6.norm4.bias      |         96        |
+|  encoder.7.attn.in_proj_weight  |       27648       |
+|   encoder.7.attn.in_proj_bias   |        288        |
+|  encoder.7.attn.out_proj.weight |        9216       |
+|   encoder.7.attn.out_proj.bias  |         96        |
+|   encoder.7.ffnn_cls.0.weight   |        9216       |
+|    encoder.7.ffnn_cls.0.bias    |         96        |
+|   encoder.7.ffnn_cls.3.weight   |        9216       |
+|    encoder.7.ffnn_cls.3.bias    |         96        |
+|     encoder.7.ffnn.0.weight     |        9216       |
+|      encoder.7.ffnn.0.bias      |         96        |
+|     encoder.7.ffnn.3.weight     |        9216       |
+|      encoder.7.ffnn.3.bias      |         96        |
+|      encoder.7.norm1.weight     |         96        |
+|       encoder.7.norm1.bias      |         96        |
+|      encoder.7.norm2.weight     |         96        |
+|       encoder.7.norm2.bias      |         96        |
+|      encoder.7.norm3.weight     |         96        |
+|       encoder.7.norm3.bias      |         96        |
+|      encoder.7.norm4.weight     |         96        |
+|       encoder.7.norm4.bias      |         96        |
+|  encoder.8.attn.in_proj_weight  |       27648       |
+|   encoder.8.attn.in_proj_bias   |        288        |
+|  encoder.8.attn.out_proj.weight |        9216       |
+|   encoder.8.attn.out_proj.bias  |         96        |
+|   encoder.8.ffnn_cls.0.weight   |        9216       |
+|    encoder.8.ffnn_cls.0.bias    |         96        |
+|   encoder.8.ffnn_cls.3.weight   |        9216       |
+|    encoder.8.ffnn_cls.3.bias    |         96        |
+|     encoder.8.ffnn.0.weight     |        9216       |
+|      encoder.8.ffnn.0.bias      |         96        |
+|     encoder.8.ffnn.3.weight     |        9216       |
+|      encoder.8.ffnn.3.bias      |         96        |
+|      encoder.8.norm1.weight     |         96        |
+|       encoder.8.norm1.bias      |         96        |
+|      encoder.8.norm2.weight     |         96        |
+|       encoder.8.norm2.bias      |         96        |
+|      encoder.8.norm3.weight     |         96        |
+|       encoder.8.norm3.bias      |         96        |
+|      encoder.8.norm4.weight     |         96        |
+|       encoder.8.norm4.bias      |         96        |
+|  encoder.9.attn.in_proj_weight  |       27648       |
+|   encoder.9.attn.in_proj_bias   |        288        |
+|  encoder.9.attn.out_proj.weight |        9216       |
+|   encoder.9.attn.out_proj.bias  |         96        |
+|   encoder.9.ffnn_cls.0.weight   |        9216       |
+|    encoder.9.ffnn_cls.0.bias    |         96        |
+|   encoder.9.ffnn_cls.3.weight   |        9216       |
+|    encoder.9.ffnn_cls.3.bias    |         96        |
+|     encoder.9.ffnn.0.weight     |        9216       |
+|      encoder.9.ffnn.0.bias      |         96        |
+|     encoder.9.ffnn.3.weight     |        9216       |
+|      encoder.9.ffnn.3.bias      |         96        |
+|      encoder.9.norm1.weight     |         96        |
+|       encoder.9.norm1.bias      |         96        |
+|      encoder.9.norm2.weight     |         96        |
+|       encoder.9.norm2.bias      |         96        |
+|      encoder.9.norm3.weight     |         96        |
+|       encoder.9.norm3.bias      |         96        |
+|      encoder.9.norm4.weight     |         96        |
+|       encoder.9.norm4.bias      |         96        |
+|  encoder.10.attn.in_proj_weight |       27648       |
+|   encoder.10.attn.in_proj_bias  |        288        |
+| encoder.10.attn.out_proj.weight |        9216       |
+|  encoder.10.attn.out_proj.bias  |         96        |
+|   encoder.10.ffnn_cls.0.weight  |        9216       |
+|    encoder.10.ffnn_cls.0.bias   |         96        |
+|   encoder.10.ffnn_cls.3.weight  |        9216       |
+|    encoder.10.ffnn_cls.3.bias   |         96        |
+|     encoder.10.ffnn.0.weight    |        9216       |
+|      encoder.10.ffnn.0.bias     |         96        |
+|     encoder.10.ffnn.3.weight    |        9216       |
+|      encoder.10.ffnn.3.bias     |         96        |
+|     encoder.10.norm1.weight     |         96        |
+|      encoder.10.norm1.bias      |         96        |
+|     encoder.10.norm2.weight     |         96        |
+|      encoder.10.norm2.bias      |         96        |
+|     encoder.10.norm3.weight     |         96        |
+|      encoder.10.norm3.bias      |         96        |
+|     encoder.10.norm4.weight     |         96        |
+|      encoder.10.norm4.bias      |         96        |
+|  encoder.11.attn.in_proj_weight |       27648       |
+|   encoder.11.attn.in_proj_bias  |        288        |
+| encoder.11.attn.out_proj.weight |        9216       |
+|  encoder.11.attn.out_proj.bias  |         96        |
+|   encoder.11.ffnn_cls.0.weight  |        9216       |
+|    encoder.11.ffnn_cls.0.bias   |         96        |
+|   encoder.11.ffnn_cls.3.weight  |        9216       |
+|    encoder.11.ffnn_cls.3.bias   |         96        |
+|     encoder.11.ffnn.0.weight    |        9216       |
+|      encoder.11.ffnn.0.bias     |         96        |
+|     encoder.11.ffnn.3.weight    |        9216       |
+|      encoder.11.ffnn.3.bias     |         96        |
+|     encoder.11.norm1.weight     |         96        |
+|      encoder.11.norm1.bias      |         96        |
+|     encoder.11.norm2.weight     |         96        |
+|      encoder.11.norm2.bias      |         96        |
+|     encoder.11.norm3.weight     |         96        |
+|      encoder.11.norm3.bias      |         96        |
+|     encoder.11.norm4.weight     |         96        |
+|      encoder.11.norm4.bias      |         96        |
+|  encoder.12.attn.in_proj_weight |       27648       |
+|   encoder.12.attn.in_proj_bias  |        288        |
+| encoder.12.attn.out_proj.weight |        9216       |
+|  encoder.12.attn.out_proj.bias  |         96        |
+|   encoder.12.ffnn_cls.0.weight  |        9216       |
+|    encoder.12.ffnn_cls.0.bias   |         96        |
+|   encoder.12.ffnn_cls.3.weight  |        9216       |
+|    encoder.12.ffnn_cls.3.bias   |         96        |
+|     encoder.12.ffnn.0.weight    |        9216       |
+|      encoder.12.ffnn.0.bias     |         96        |
+|     encoder.12.ffnn.3.weight    |        9216       |
+|      encoder.12.ffnn.3.bias     |         96        |
+|     encoder.12.norm1.weight     |         96        |
+|      encoder.12.norm1.bias      |         96        |
+|     encoder.12.norm2.weight     |         96        |
+|      encoder.12.norm2.bias      |         96        |
+|     encoder.12.norm3.weight     |         96        |
+|      encoder.12.norm3.bias      |         96        |
+|     encoder.12.norm4.weight     |         96        |
+|      encoder.12.norm4.bias      |         96        |
+|  encoder.13.attn.in_proj_weight |       27648       |
+|   encoder.13.attn.in_proj_bias  |        288        |
+| encoder.13.attn.out_proj.weight |        9216       |
+|  encoder.13.attn.out_proj.bias  |         96        |
+|   encoder.13.ffnn_cls.0.weight  |        9216       |
+|    encoder.13.ffnn_cls.0.bias   |         96        |
+|   encoder.13.ffnn_cls.3.weight  |        9216       |
+|    encoder.13.ffnn_cls.3.bias   |         96        |
+|     encoder.13.ffnn.0.weight    |        9216       |
+|      encoder.13.ffnn.0.bias     |         96        |
+|     encoder.13.ffnn.3.weight    |        9216       |
+|      encoder.13.ffnn.3.bias     |         96        |
+|     encoder.13.norm1.weight     |         96        |
+|      encoder.13.norm1.bias      |         96        |
+|     encoder.13.norm2.weight     |         96        |
+|      encoder.13.norm2.bias      |         96        |
+|     encoder.13.norm3.weight     |         96        |
+|      encoder.13.norm3.bias      |         96        |
+|     encoder.13.norm4.weight     |         96        |
+|      encoder.13.norm4.bias      |         96        |
+|  encoder.14.attn.in_proj_weight |       27648       |
+|   encoder.14.attn.in_proj_bias  |        288        |
+| encoder.14.attn.out_proj.weight |        9216       |
+|  encoder.14.attn.out_proj.bias  |         96        |
+|   encoder.14.ffnn_cls.0.weight  |        9216       |
+|    encoder.14.ffnn_cls.0.bias   |         96        |
+|   encoder.14.ffnn_cls.3.weight  |        9216       |
+|    encoder.14.ffnn_cls.3.bias   |         96        |
+|     encoder.14.ffnn.0.weight    |        9216       |
+|      encoder.14.ffnn.0.bias     |         96        |
+|     encoder.14.ffnn.3.weight    |        9216       |
+|      encoder.14.ffnn.3.bias     |         96        |
+|     encoder.14.norm1.weight     |         96        |
+|      encoder.14.norm1.bias      |         96        |
+|     encoder.14.norm2.weight     |         96        |
+|      encoder.14.norm2.bias      |         96        |
+|     encoder.14.norm3.weight     |         96        |
+|      encoder.14.norm3.bias      |         96        |
+|     encoder.14.norm4.weight     |         96        |
+|      encoder.14.norm4.bias      |         96        |
+|  encoder.15.attn.in_proj_weight |       27648       |
+|   encoder.15.attn.in_proj_bias  |        288        |
+| encoder.15.attn.out_proj.weight |        9216       |
+|  encoder.15.attn.out_proj.bias  |         96        |
+|   encoder.15.ffnn_cls.0.weight  |        9216       |
+|    encoder.15.ffnn_cls.0.bias   |         96        |
+|   encoder.15.ffnn_cls.3.weight  |        9216       |
+|    encoder.15.ffnn_cls.3.bias   |         96        |
+|     encoder.15.ffnn.0.weight    |        9216       |
+|      encoder.15.ffnn.0.bias     |         96        |
+|     encoder.15.ffnn.3.weight    |        9216       |
+|      encoder.15.ffnn.3.bias     |         96        |
+|     encoder.15.norm1.weight     |         96        |
+|      encoder.15.norm1.bias      |         96        |
+|     encoder.15.norm2.weight     |         96        |
+|      encoder.15.norm2.bias      |         96        |
+|     encoder.15.norm3.weight     |         96        |
+|      encoder.15.norm3.bias      |         96        |
+|     encoder.15.norm4.weight     |         96        |
+|      encoder.15.norm4.bias      |         96        |
+|            out.weight           |        384        |
+|             out.bias            |         4         |
++---------------------------------+-------------------+
+Sum of trainable parameters: 1224006
+Progress: 1/200
+Traceback (most recent call last):
+  File "/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py", line 713, in main
+    trained_model_name = train_model(files_list_, device=device)
+  File "/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py", line 170, in train_model
+    loss,batch_loss,correlation_loss = loss_fn(model, shower_data, incident_energies, marginal_prob_std_fn, padding_value=0.0, alpha = config.loss_parameters ,device=device, diffusion_on_mask=False,serialized_model=False, cp_chunks=4)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_104a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/util/score_model.py", line 515, in forward
+    scores = model(perturbed_x, random_t, incident_energies, mask=attn_padding_mask)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_104a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1538, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/util/score_model.py", line 169, in forward
+    x = layer(x, x_cls, mask) # Block layers
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_104a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/util/score_model.py", line 94, in forward
+    x = self.norm3(x)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_104a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_104a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/torch/nn/modules/normalization.py", line 190, in forward
+    return F.layer_norm(
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_104a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/torch/nn/functional.py", line 2515, in layer_norm
+    return torch.layer_norm(input, normalized_shape, weight, bias, eps, torch.backends.cudnn.enabled)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 436.00 MiB (GPU 0; 14.57 GiB total capacity; 13.37 GiB already allocated; 234.75 MiB free; 13.86 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

@@ -1,0 +1,191 @@
+{
+    "os": "Linux-5.14.0-427.26.1.el9_4.x86_64-x86_64-with-glibc2.34",
+    "python": "3.9.12",
+    "heartbeatAt": "2024-07-29T09:21:12.251157",
+    "startedAt": "2024-07-29T09:21:10.914340",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-i",
+        "/eos/user/c/chenhua/copy_tdsm_encoder_sweep16/datasets/",
+        "-p",
+        "/eos/user/c/chenhua/copy_tdsm_encoder_sweep16/datasets/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl",
+        "-c",
+        "/eos/user/c/chenhua/copy_tdsm_encoder_sweep16/configs/code_best_test.yml",
+        "-s",
+        "1111"
+    ],
+    "state": "running",
+    "program": "/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py",
+    "codePathLocal": "trans_tdsm_rtheta.py",
+    "codePath": "trans_tdsm_rtheta.py",
+    "host": "lxplus905.cern.ch",
+    "username": "chenhua",
+    "executable": "/cvmfs/sft.cern.ch/lcg/views/LCG_104a_cuda/x86_64-el9-gcc11-opt/bin/python3",
+    "cpu_count": 28,
+    "cpu_count_logical": 28,
+    "cpu_freq": {
+        "current": 2099.900000000001,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2099.9,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 159.39939498901367,
+            "used": 122.83333587646484
+        }
+    },
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla T4",
+            "memory_total": 16106127360
+        }
+    ],
+    "memory": {
+        "total": 160.69182205200195
+    }
+}

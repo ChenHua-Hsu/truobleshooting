@@ -1,0 +1,44 @@
+wandb_version: 1
+
+SDE:
+  value: VE
+batch_size:
+  value: 1024
+condor:
+  value: 1
+correction_steps:
+  value: 25
+dropout_gen:
+  value: 0.2
+embed_dim:
+  value: 96
+epochs:
+  value: 200
+hidden_dim:
+  value: 96
+inputs:
+  value: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+lr:
+  value: 0.003
+n_feat_dim:
+  value: 4
+n_showers_2_gen:
+  value: 2000
+num_attn_heads:
+  value: 8
+num_encoder_blocks:
+  value: 16
+preprocessor:
+  value: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+sampler_steps:
+  value: 100
+sigma_max:
+  value: 1
+sigma_min:
+  value: 0.001
+switches:
+  value: '1111'
+train_ratio:
+  value: 0.9
+work_dir:
+  value: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
