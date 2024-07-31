@@ -1,0 +1,32 @@
+wandb: Starting wandb agent 🕵️
+2024-07-31 13:46:41,901 - wandb.wandb_agent - INFO - Running runs: []
+2024-07-31 13:46:42,182 - wandb.wandb_agent - INFO - Agent received command: run
+2024-07-31 13:46:42,183 - wandb.wandb_agent - INFO - Agent starting run with config:
+	SDE: VE
+	batch_size: 1024
+	condor: 1
+	correction_steps: 25
+	dropout_gen: 0.2
+	embed_dim: 96
+	epochs: 200
+	hidden_dim: 96
+	inputs: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new
+	lr: 0.003
+	n_feat_dim: 4
+	n_showers_2_gen: 2000
+	num_attn_heads: 8
+	num_encoder_blocks: 16
+	preprocessor: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl
+	sampler_steps: 100
+	sigma_max: 1
+	sigma_min: 0.005
+	switches: 1111
+	train_ratio: 0.9
+	work_dir: /eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:46:42,201 - wandb.wandb_agent - INFO - About to run command: /usr/bin/env python /eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_rtheta.py --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --inputs=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --preprocessor=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/datasets_new/dataset_2_padded_rtheta_new_transformation_nentry1033To1161_preprocessor.pkl --sampler_steps=100 --sigma_max=1 --sigma_min=0.005 --switches=1111 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+wandb: Currently logged in as: ken91021615 (calo_tNCSM). Use `wandb login --relogin` to force relogin
+2024-07-31 13:46:47,231 - wandb.wandb_agent - INFO - Running runs: ['gpqeusus']
+usage: [-h] [-s SWITCHES] [-i INPUTS] [-c CONFIG] [-p PREPROCESSOR]
+: error: unrecognized arguments: --SDE=VE --batch_size=1024 --condor=1 --correction_steps=25 --dropout_gen=0.2 --embed_dim=96 --epochs=200 --hidden_dim=96 --lr=0.003 --n_feat_dim=4 --n_showers_2_gen=2000 --num_attn_heads=8 --num_encoder_blocks=16 --sampler_steps=100 --sigma_max=1 --sigma_min=0.005 --train_ratio=0.9 --work_dir=/eos/home-c/chenhua/copy_tdsm_encoder_sweep16
+2024-07-31 13:46:52,398 - wandb.wandb_agent - INFO - Cleaning up finished run: gpqeusus
+wandb: Terminating and syncing runs. Press ctrl-c to kill.

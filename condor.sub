@@ -1,0 +1,106 @@
+output = /afs/cern.ch/user/c/chenhua/Farm/job_common_$(Process).out
+error  = /afs/cern.ch/user/c/chenhua/Farm/job_common_$(Process).err
+log    = /afs/cern.ch/user/c/chenhua/Farm/job_common_$(Process).log
+executable = /afs/cern.ch/user/c/chenhua/Farm/$(cfgFile)
+request_GPUs = 1
++JobFlavour = "tomorrow"
+cfgFile=sweep_run0.sh
+queue 1
+cfgFile=sweep_run1.sh
+queue 1
+cfgFile=sweep_run2.sh
+queue 1
+cfgFile=sweep_run3.sh
+queue 1
+cfgFile=sweep_run4.sh
+queue 1
+cfgFile=sweep_run5.sh
+queue 1
+cfgFile=sweep_run6.sh
+queue 1
+cfgFile=sweep_run7.sh
+queue 1
+cfgFile=sweep_run8.sh
+queue 1
+cfgFile=sweep_run9.sh
+queue 1
+cfgFile=sweep_run10.sh
+queue 1
+cfgFile=sweep_run11.sh
+queue 1
+cfgFile=sweep_run12.sh
+queue 1
+cfgFile=sweep_run13.sh
+queue 1
+cfgFile=sweep_run14.sh
+queue 1
+cfgFile=sweep_run15.sh
+queue 1
+cfgFile=sweep_run16.sh
+queue 1
+cfgFile=sweep_run17.sh
+queue 1
+cfgFile=sweep_run18.sh
+queue 1
+cfgFile=sweep_run19.sh
+queue 1
+cfgFile=sweep_run20.sh
+queue 1
+cfgFile=sweep_run21.sh
+queue 1
+cfgFile=sweep_run22.sh
+queue 1
+cfgFile=sweep_run23.sh
+queue 1
+cfgFile=sweep_run24.sh
+queue 1
+cfgFile=sweep_run25.sh
+queue 1
+cfgFile=sweep_run26.sh
+queue 1
+cfgFile=sweep_run27.sh
+queue 1
+cfgFile=sweep_run28.sh
+queue 1
+cfgFile=sweep_run29.sh
+queue 1
+cfgFile=sweep_run30.sh
+queue 1
+cfgFile=sweep_run31.sh
+queue 1
+cfgFile=sweep_run32.sh
+queue 1
+cfgFile=sweep_run33.sh
+queue 1
+cfgFile=sweep_run34.sh
+queue 1
+cfgFile=sweep_run35.sh
+queue 1
+cfgFile=sweep_run36.sh
+queue 1
+cfgFile=sweep_run37.sh
+queue 1
+cfgFile=sweep_run38.sh
+queue 1
+cfgFile=sweep_run39.sh
+queue 1
+cfgFile=sweep_run40.sh
+queue 1
+cfgFile=sweep_run41.sh
+queue 1
+cfgFile=sweep_run42.sh
+queue 1
+cfgFile=sweep_run43.sh
+queue 1
+cfgFile=sweep_run44.sh
+queue 1
+cfgFile=sweep_run45.sh
+queue 1
+cfgFile=sweep_run46.sh
+queue 1
+cfgFile=sweep_run47.sh
+queue 1
+cfgFile=sweep_run48.sh
+queue 1
+cfgFile=sweep_run49.sh
+queue 1

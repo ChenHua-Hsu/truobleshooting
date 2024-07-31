@@ -1,0 +1,209 @@
+000 (4106318.041.000) 06/12 06:30:59 Job submitted from host: <188.185.16.120:9618?addrs=188.185.16.120-9618+[2001-1458-d00-65--100-39b]-9618&alias=bigbird27.cern.ch&noUDP&sock=schedd_24013_7fc8>
+...
+040 (4106318.041.000) 06/12 06:31:59 Started transferring input files
+	Transferring to host: <188.184.195.71:9618?addrs=188.184.195.71-9618+[2001-1458-301-72--100-384]-9618&alias=b9g47n2106.cern.ch&noUDP&sock=slot1_1_1367326_9c6b_24785>
+...
+040 (4106318.041.000) 06/12 06:31:59 Finished transferring input files
+...
+001 (4106318.041.000) 06/12 06:32:00 Job executing on host: <188.184.195.71:9618?addrs=188.184.195.71-9618+[2001-1458-301-72--100-384]-9618&alias=b9g47n2106.cern.ch&noUDP&sock=startd_625686_21d4>
+	SlotName: slot1_1@b9g47n2106.cern.ch
+	AvailableGPUs = { GPUs_GPU_111bb3d1 }
+	CondorScratchDir = "/pool/condor/dir_2035006"
+	Cpus = 1
+	Disk = 172137
+	GPUs = 1
+	GPUs_GPU_111bb3d1 = [ GlobalMemoryMb = 32494; MaxSupportedVersion = 12040; DriverVersion = 12.4; DeviceUuid = "111bb3d1-80ae-ee28-1f54-4658e0d63886"; DeviceName = "Tesla V100S-PCIE-32GB"; CoresPerCU = 64; ECCEnabled = true; ComputeUnits = 80; ClockMhz = 1597.0; Id = "GPU-111bb3d1"; DevicePciBusId = "0000:07:00.0"; Capability = 7.0 ]
+	Memory = 2000
+...
+006 (4106318.041.000) 06/12 06:32:02 Image size of job updated: 13930920
+	553  -  MemoryUsage of job (MB)
+	566172  -  ResidentSetSize of job (KB)
+...
+040 (4106318.041.000) 06/12 06:32:02 Started transferring output files
+...
+040 (4106318.041.000) 06/12 06:32:02 Finished transferring output files
+...
+005 (4106318.041.000) 06/12 06:32:02 Job terminated.
+	(1) Normal termination (return value 126)
+		Usr 3 20:25:30, Sys 0 03:54:17  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 3 20:25:30, Sys 0 03:54:17  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	5710  -  Run Bytes Sent By Job
+	231  -  Run Bytes Received By Job
+	5710  -  Total Bytes Sent By Job
+	231  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       21        1    172137 
+	   Gpus (Average)       :                 1         1 "GPU-111bb3d1"
+	   Memory (MB)          :      553     2000      2000 
+
+	Job terminated of its own accord at 2024-06-12T04:32:02Z with exit-code 126.
+...
+000 (4121424.041.000) 06/13 12:36:20 Job submitted from host: <188.185.16.120:9618?addrs=188.185.16.120-9618+[2001-1458-d00-65--100-39b]-9618&alias=bigbird27.cern.ch&noUDP&sock=schedd_24013_7fc8>
+...
+040 (4121424.041.000) 06/13 12:37:59 Started transferring input files
+	Transferring to host: <188.184.195.29:9618?addrs=188.184.195.29-9618+[2001-1458-301-72--100-226]-9618&alias=b9g47n8432.cern.ch&noUDP&sock=slot1_1_3386339_eb01_2634>
+...
+040 (4121424.041.000) 06/13 12:37:59 Finished transferring input files
+...
+001 (4121424.041.000) 06/13 12:38:00 Job executing on host: <188.184.195.29:9618?addrs=188.184.195.29-9618+[2001-1458-301-72--100-226]-9618&alias=b9g47n8432.cern.ch&noUDP&sock=startd_15648_ce0f>
+	SlotName: slot1_1@b9g47n8432.cern.ch
+	AvailableGPUs = { GPUs_GPU_52d18a8c }
+	CondorScratchDir = "/pool/condor/dir_3905915"
+	Cpus = 1
+	Disk = 174006
+	GPUs = 1
+	GPUs_GPU_52d18a8c = [ GlobalMemoryMb = 32494; MaxSupportedVersion = 12040; DriverVersion = 12.4; DeviceUuid = "52d18a8c-e9fe-346e-4034-df2dff2358b1"; DeviceName = "Tesla V100S-PCIE-32GB"; CoresPerCU = 64; ECCEnabled = true; ComputeUnits = 80; ClockMhz = 1597.0; Id = "GPU-52d18a8c"; DevicePciBusId = "0000:07:00.0"; Capability = 7.0 ]
+	Memory = 2000
+...
+006 (4121424.041.000) 06/13 12:38:02 Image size of job updated: 14407296
+	3767  -  MemoryUsage of job (MB)
+	3857196  -  ResidentSetSize of job (KB)
+...
+007 (4121424.041.000) 06/13 12:38:02 Shadow exception!
+	Error from slot1_1@b9g47n8432.cern.ch: Job has gone over memory limit of 2000 megabytes. Peak usage: 14069 megabytes.
+	0  -  Run Bytes Sent By Job
+	231  -  Run Bytes Received By Job
+...
+012 (4121424.041.000) 06/13 12:38:02 Job was held.
+	Error from slot1_1@b9g47n8432.cern.ch: Job has gone over memory limit of 2000 megabytes. Peak usage: 14069 megabytes.
+	Code 34 Subcode 0
+...
+000 (4121464.041.000) 06/13 12:45:46 Job submitted from host: <188.185.16.120:9618?addrs=188.185.16.120-9618+[2001-1458-d00-65--100-39b]-9618&alias=bigbird27.cern.ch&noUDP&sock=schedd_24013_7fc8>
+...
+040 (4121464.041.000) 06/13 12:49:27 Started transferring input files
+	Transferring to host: <188.184.195.66:9618?addrs=188.184.195.66-9618+[2001-1458-301-72--100-179]-9618&alias=b9g47n0340.cern.ch&noUDP&sock=slot1_1_3657465_b653_14600>
+...
+040 (4121464.041.000) 06/13 12:49:27 Finished transferring input files
+...
+001 (4121464.041.000) 06/13 12:49:28 Job executing on host: <188.184.195.66:9618?addrs=188.184.195.66-9618+[2001-1458-301-72--100-179]-9618&alias=b9g47n0340.cern.ch&noUDP&sock=startd_15724_ef42>
+	SlotName: slot1_1@b9g47n0340.cern.ch
+	AvailableGPUs = { GPUs_GPU_62e6a7b2 }
+	CondorScratchDir = "/pool/condor/dir_2477559"
+	Cpus = 1
+	Disk = 169841
+	GPUs = 1
+	GPUs_GPU_62e6a7b2 = [ GlobalMemoryMb = 32494; MaxSupportedVersion = 12040; DriverVersion = 12.4; DeviceUuid = "62e6a7b2-07d5-b7f6-24de-e679df367f40"; DeviceName = "Tesla V100S-PCIE-32GB"; CoresPerCU = 64; ECCEnabled = true; ComputeUnits = 80; ClockMhz = 1597.0; Id = "GPU-62e6a7b2"; DevicePciBusId = "0000:07:00.0"; Capability = 7.0 ]
+	Memory = 2000
+...
+006 (4121464.041.000) 06/13 12:49:36 Image size of job updated: 13857932
+	1280  -  MemoryUsage of job (MB)
+	1310104  -  ResidentSetSize of job (KB)
+...
+040 (4121464.041.000) 06/13 12:49:49 Started transferring output files
+...
+040 (4121464.041.000) 06/13 12:49:49 Finished transferring output files
+...
+005 (4121464.041.000) 06/13 12:49:49 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 4 17:55:54, Sys 3 23:12:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 4 17:55:54, Sys 3 23:12:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	8876  -  Run Bytes Sent By Job
+	231  -  Run Bytes Received By Job
+	8876  -  Total Bytes Sent By Job
+	231  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       24        1    169841 
+	   Gpus (Average)       :                 1         1 "GPU-62e6a7b2"
+	   Memory (MB)          :     1280     2000      2000 
+
+	Job terminated of its own accord at 2024-06-13T10:49:49Z with exit-code 0.
+...
+009 (4121424.041.000) 06/14 12:39:12 Job was aborted.
+	Job removed by SYSTEM_PERIODIC_REMOVE due to wall time exceeded allowed max.
+...
+000 (4558790.041.000) 07/31 12:46:52 Job submitted from host: <188.185.16.120:9618?addrs=188.185.16.120-9618+[2001-1458-d00-65--100-39b]-9618&alias=bigbird27.cern.ch&noUDP&sock=schedd_24013_7fc8>
+...
+040 (4558790.041.000) 07/31 13:04:49 Started transferring input files
+	Transferring to host: <188.184.195.242:9618?addrs=188.184.195.242-9618+[2001-1458-301-72--100-1f9]-9618&alias=b9g47n8171.cern.ch&noUDP&sock=slot1_1_989424_7724_62751>
+...
+040 (4558790.041.000) 07/31 13:04:49 Finished transferring input files
+...
+001 (4558790.041.000) 07/31 13:04:50 Job executing on host: <188.184.195.242:9618?addrs=188.184.195.242-9618+[2001-1458-301-72--100-1f9]-9618&alias=b9g47n8171.cern.ch&noUDP&sock=startd_15841_2fd7>
+	SlotName: slot1_1@b9g47n8171.cern.ch
+	AvailableGPUs = { GPUs_GPU_b66aaef1 }
+	CondorScratchDir = "/pool/condor/dir_1628190"
+	Cpus = 1
+	Disk = 176007
+	GPUs = 1
+	GPUs_GPU_b66aaef1 = [ GlobalMemoryMb = 32494; MaxSupportedVersion = 12040; DriverVersion = 12.4; DeviceUuid = "b66aaef1-7a45-dc3a-20b9-6fc19b6dfe68"; DeviceName = "Tesla V100S-PCIE-32GB"; CoresPerCU = 64; ECCEnabled = true; ComputeUnits = 80; ClockMhz = 1597.0; Id = "GPU-b66aaef1"; DevicePciBusId = "0000:07:00.0"; Capability = 7.0 ]
+	Memory = 2000
+...
+006 (4558790.041.000) 07/31 13:04:58 Image size of job updated: 107776
+	106  -  MemoryUsage of job (MB)
+	107688  -  ResidentSetSize of job (KB)
+...
+006 (4558790.041.000) 07/31 13:05:10 Image size of job updated: 460416
+	106  -  MemoryUsage of job (MB)
+	107688  -  ResidentSetSize of job (KB)
+...
+040 (4558790.041.000) 07/31 13:05:10 Started transferring output files
+...
+040 (4558790.041.000) 07/31 13:05:10 Finished transferring output files
+...
+005 (4558790.041.000) 07/31 13:05:10 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:07, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:07, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	7038  -  Run Bytes Sent By Job
+	250  -  Run Bytes Received By Job
+	7038  -  Total Bytes Sent By Job
+	250  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       22        1    176007 
+	   Gpus (Average)       :                 1         1 "GPU-b66aaef1"
+	   Memory (MB)          :      106     2000      2000 
+
+	Job terminated of its own accord at 2024-07-31T11:05:10Z with exit-code 0.
+...
+000 (4558799.041.000) 07/31 13:36:26 Job submitted from host: <188.185.16.120:9618?addrs=188.185.16.120-9618+[2001-1458-d00-65--100-39b]-9618&alias=bigbird27.cern.ch&noUDP&sock=schedd_24013_7fc8>
+...
+040 (4558799.041.000) 07/31 13:53:56 Started transferring input files
+	Transferring to host: <128.142.241.120:9618?addrs=128.142.241.120-9618+[2001-1458-301-ce--100-ec]-9618&alias=b9g47n4050.cern.ch&noUDP&sock=slot1_1_1370079_593b_41767>
+...
+040 (4558799.041.000) 07/31 13:53:56 Finished transferring input files
+...
+001 (4558799.041.000) 07/31 13:53:57 Job executing on host: <128.142.241.120:9618?addrs=128.142.241.120-9618+[2001-1458-301-ce--100-ec]-9618&alias=b9g47n4050.cern.ch&noUDP&sock=startd_15799_60dc>
+	SlotName: slot1_1@b9g47n4050.cern.ch
+	AvailableGPUs = { GPUs_GPU_bf3fdde8 }
+	CondorScratchDir = "/pool/condor/dir_284136"
+	Cpus = 1
+	Disk = 85536
+	GPUs = 1
+	GPUs_GPU_bf3fdde8 = [ GlobalMemoryMb = 32494; MaxSupportedVersion = 12040; DriverVersion = 12.4; DeviceUuid = "bf3fdde8-927e-09f9-6ee7-d9a1ad55128e"; DeviceName = "Tesla V100-PCIE-32GB"; CoresPerCU = 64; ECCEnabled = true; ComputeUnits = 80; ClockMhz = 1380.0; Id = "GPU-bf3fdde8"; DevicePciBusId = "0000:07:00.0"; Capability = 7.0 ]
+	Memory = 2000
+...
+006 (4558799.041.000) 07/31 13:54:06 Image size of job updated: 9366300
+	1620  -  MemoryUsage of job (MB)
+	1658456  -  ResidentSetSize of job (KB)
+...
+040 (4558799.041.000) 07/31 13:54:25 Started transferring output files
+...
+040 (4558799.041.000) 07/31 13:54:25 Finished transferring output files
+...
+005 (4558799.041.000) 07/31 13:54:25 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:16:23, Sys 0 00:07:30  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:16:23, Sys 0 00:07:30  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	7115  -  Run Bytes Sent By Job
+	253  -  Run Bytes Received By Job
+	7115  -  Total Bytes Sent By Job
+	253  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       23        1     85536 
+	   Gpus (Average)       :                 1         1 "GPU-bf3fdde8"
+	   Memory (MB)          :     1620     2000      2000 
+
+	Job terminated of its own accord at 2024-07-31T11:54:25Z with exit-code 0.
+...
