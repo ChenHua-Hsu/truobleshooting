@@ -1,0 +1,88 @@
+Traceback (most recent call last):
+  File "/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_130_generate.py", line 913, in <module>
+    main(args)
+  File "/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_130_generate.py", line 716, in main
+    output_directory = generate(files_list_, load_filename=trained_model_name, device=device)
+  File "/eos/home-c/chenhua/copy_tdsm_encoder_sweep16/trans_tdsm_130_generate.py", line 362, in generate
+    fig0.savefig(savefigname)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_105a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_105a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_105a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_105a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/matplotlib/backends/backend_agg.py", line 497, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_105a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/matplotlib/backends/backend_agg.py", line 445, in _print_pil
+    FigureCanvasAgg.draw(self)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_105a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/matplotlib/backends/backend_agg.py", line 388, in draw
+    self.figure.draw(self.renderer)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_105a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/matplotlib/artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_105a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_105a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/matplotlib/figure.py", line 3154, in draw
+    mimage._draw_list_compositing_images(
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_105a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_105a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/matplotlib/artist.py", line 72, in draw_wrapper
+return draw(artist, renderer)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_105a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/matplotlib/axis.py", line 1388, in draw
+    tlb1, tlb2 = self._get_ticklabel_bboxes(ticks_to_draw, renderer)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_105a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/matplotlib/axis.py", line 1315, in _get_ticklabel_bboxes
+    return ([tick.label1.get_window_extent(renderer)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_105a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/matplotlib/axis.py", line 1315, in <listcomp>
+    return ([tick.label1.get_window_extent(renderer)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_105a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/matplotlib/text.py", line 956, in get_window_extent
+    bbox, info, descent = self._get_layout(self._renderer)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_105a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/matplotlib/text.py", line 381, in _get_layout
+    w, h, d = _get_text_metrics_with_cache(
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_105a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/matplotlib/text.py", line 69, in _get_text_metrics_with_cache
+    return _get_text_metrics_with_cache_impl(
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_105a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/matplotlib/text.py", line 77, in _get_text_metrics_with_cache_impl
+    return renderer_ref().get_text_width_height_descent(text, fontprop, ismath)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_105a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/matplotlib/backends/backend_agg.py", line 213, in get_text_width_height_descent
+    return super().get_text_width_height_descent(s, prop, ismath)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_105a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/matplotlib/backend_bases.py", line 652, in get_text_width_height_descent
+    return self.get_texmanager().get_text_width_height_descent(
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_105a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/matplotlib/texmanager.py", line 363, in get_text_width_height_descent
+    dvifile = cls.make_dvi(tex, fontsize)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_105a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/matplotlib/texmanager.py", line 295, in make_dvi
+    cls._run_checked_subprocess(
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_105a_cuda/x86_64-el9-gcc11-opt/lib/python3.9/site-packages/matplotlib/texmanager.py", line 258, in _run_checked_subprocess
+raise RuntimeError(
+RuntimeError: latex was not able to process the following string:
+b'$\\\\mathdefault{40}$'
+
+Here is the full command invocation and its output:
+
+latex -interaction=nonstopmode --halt-on-error --output-directory=tmpqi85hwft f167716df302c05009f1ff2baeb9fe4d.tex
+
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=latex)
+ restricted \write18 enabled.
+entering extended mode
+(./f167716df302c05009f1ff2baeb9fe4d.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo))
+
+! LaTeX Error: File `type1cm.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name:
+! Emergency stop.
+<read *>
+
+l.7 \usepackage
+               {type1ec}^^M
+No pages of output.
+Transcript written on tmpqi85hwft/f167716df302c05009f1ff2baeb9fe4d.log.
+
+
+
+2024-08-21 11:43:33,895 - wandb.wandb_agent - INFO - Cleaning up finished run: 2awytjgz
+wandb: Terminating and syncing runs. Press ctrl-c to kill.
